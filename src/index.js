@@ -15,6 +15,6 @@ require('./socket.js')(io) // Primero escribimos esto
 app.set('port', 3000) // port = 3000
 app.use(express.static(path.join(__dirname, 'public'))) // Utilizando middleware express.static o sea, requiere una ruta de la carpeta estatica
 
-app.listen(app.get('port'), () => {
+server.listen(app.get('port'), () => {
     console.log(`App corriendo en el puerto: ${app.get('port')}`)
 })

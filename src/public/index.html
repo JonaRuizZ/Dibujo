@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Aplicación de dibujo</title>
 </head>
+
 <body>
-    
+    <div class="content">
+        <!-- Canvas nos va a permitir hacer dibujos en el html -->
+        <canvas id="canvas"></canvas>
+        <div class="colors">
+            <button id="color1"></button>
+            <button id="color2"></button>
+            <button id="color3"></button>
+            <button id="color4"></button>
+            <button id="color5"></button>
+        </div>
+    </div>
 </body>
+
+<!-- Scripts -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="./index.js"></script>
 </html>
