@@ -61,8 +61,30 @@ canvas {
     outline: none;
 }
 
+.delete{
+    position: absolute;
+    top: 5px;
+    padding: 10px;
+    margin-left: 170px;
+}
+
+#btn_delete{
+    width: 30px;
+    height: 30px;
+    border-color: #000;
+    color:red
+}
 
 button:hover {
     transition: transform .5s;
     transform: scale(1.5); 
+}
+
+#users {
+    position: absolute;
+    top: 5px;
+    padding: 10px;
+    margin-left: 80%;
+    font-size: 20px;
+    color: green;
 }
